@@ -1,0 +1,87 @@
+img {
+    width: 250px;
+    height: 200px;
+    border: solid;
+    border-color: maroon;
+    border-width: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    border: solid;
+    border-width: 15px;
+    border-radius: 10px;
+    border-color: brown;
+    background-color: beige;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.roboto-slab {
+    text-decoration-line: underline;
+    background-color: beige;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+p {
+    background-color: beige;
+}
+
+section input {
+    background-color: beige;
+    width: 50px;
+}
+
+section label {
+    background-color: beige;
+}
+
+button {
+    background-color: beige;
+    width: 100px;
+}
+
+.dancing-script {
+    background-color: beige;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+nav input {
+    background-color: white;
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+    border: solid green 5px;
+}
+
+h1 {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav input {
+    width: 1000px;
+    height: 30px;
+}

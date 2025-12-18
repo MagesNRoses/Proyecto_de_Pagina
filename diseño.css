@@ -6,7 +6,7 @@ img {
     border-width: 5px;
 }
 
-section {
+div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,11 +61,12 @@ button {
 
 nav input {
     background-color: white;
+    width: 1000px;
+    height: 30px;
 }
 
 header {
-    padding: 10px;
-    margin: 10px;
+    background-color: black;
     border: solid green 5px;
 }
 
@@ -76,13 +77,26 @@ h1 {
 }
 
 nav {
-    background-color: aliceblue;
+    background-color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-nav input {
-    width: 1000px;
-    height: 30px;
+form {
+    background-color: beige;
+}
+
+nav label {
+    background-color: #FFCC99;
+}
+
+main label, main input {
+    background-color: beige;
+}
+
+hr {
+    border: none;
+    background-color: maroon;
+    height: 5px;
 }

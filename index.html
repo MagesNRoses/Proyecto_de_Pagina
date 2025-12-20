@@ -11,20 +11,87 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
 </head>
 <body>
-    <header>
-        <h1> Hojas Naturalis: compra tus hojas naturales al mejor precio</h1>
-    </header>
-
-    <hr>
-
-    <nav>
-        <label for="Búsqueda">Busca tu hoja natural:</label>
-        <input type="search" name="Búsqueda">
-    </nav>
-
-    <hr>
+    <header> 
+        <div class="px-3 py-2 text-bg-dark border-bottom"> 
+            <div class="container"> 
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"> 
+                    <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none"> 
+                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Oreja">
+                            <use xlink:href="#bootstrap"></use>
+                        </svg> 
+                    </a> 
+                    <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"> 
+                        <li> 
+                            <a href="#" class="nav-link text-secondary"> 
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#home"></use>
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">Hogar</font>
+                                </font>
+                            </a> 
+                        </li> 
+                        <li> 
+                            <a href="#" class="nav-link text-white"> 
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#speedometer2"></use>
+                                </svg>
+                                <font dir="auto" style="vertical-align: inherit;">
+                                    <font dir="auto" style="vertical-align: inherit;">Panel</font>
+                                </font>
+                            </a> 
+                        </li> 
+                        <li> 
+                            <a href="#" class="nav-link text-white"> 
+                                <svg class="bi d-block mx-auto mb-1" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="#table"></use></svg><font dir="auto" style="vertical-align: inherit;">
+                                        <font dir="auto" style="vertical-align: inherit;">Pedidos</font>
+                                    </font>
+                                </a> 
+                            </li> 
+                            <li> 
+                                <a href="#" class="nav-link text-white"> 
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24" aria-hidden="true">
+                                        <use xlink:href="#grid"></use>
+                                    </svg><font dir="auto" style="vertical-align: inherit;">
+                                        <font dir="auto" style="vertical-align: inherit;">Productos</font>
+                                    </font>
+                                </a> 
+                            </li> 
+                            <li> 
+                                <a href="#" class="nav-link text-white"> 
+                                    <svg class="bi d-block mx-auto mb-1" width="24" height="24" aria-hidden="true">
+                                        <use xlink:href="#people-circle"></use>
+                                    </svg><font dir="auto" style="vertical-align: inherit;">
+                                        <font dir="auto" style="vertical-align: inherit;">Clientes</font>
+                                    </font>
+                                </a> 
+                            </li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="px-3 py-2 border-bottom mb-3"> 
+                <div class="container d-flex flex-wrap justify-content-center"> 
+                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search"> 
+                        <input type="search" class="form-control" placeholder="Buscar..." aria-label="Buscar"> 
+                    </form> 
+                    <div class="text-end"> 
+                        <button type="button" class="btn btn-light text-dark me-2"><font dir="auto" style="vertical-align: inherit;">
+                            <font dir="auto" style="vertical-align: inherit;">Acceso</font>
+                        </font></button> <button type="button" class="btn btn-primary">
+                            <font dir="auto" style="vertical-align: inherit;">
+                                <font dir="auto" style="vertical-align: inherit;">Inscribirse</font>
+                            </font>
+                        </button> 
+                    </div> 
+                </div> 
+            </div>
+        </header>
     
     <main>
 
@@ -90,16 +157,12 @@
 
     </main>
 
-    <hr>
-
     <aside>
         <p>El siguiente video sirve para ilustrar lo que el sistema de salud tiene para decir acerca de nuestros productos.</p>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xvFZjo5PgG0?si=iopU6Fo-VFmdLUdH&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <p>Si no puede verlo, pruebe con el siguiente hipervínculo:</p>
         <a href="https://www.youtube.com/watch?v=tRw6fNs6BHw&list=RDtRw6fNs6BHw&start_radio=1">Esto no es clickbait</a>
     </aside>
-
-    <hr>
 
     <footer>
         <h5>Contacto:</h5>
@@ -110,5 +173,6 @@
         <p>Instagram:</p>
         <a href="https://www.instagram.com/miakhalifa/">@TuGatitaSalvaje69</a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

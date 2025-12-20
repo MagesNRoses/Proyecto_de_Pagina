@@ -1,29 +1,3 @@
-img {
-    width: 250px;
-    height: 200px;
-    border: solid;
-    border-color: maroon;
-    border-width: 5px;
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px;
-    padding: 20px;
-    border: solid;
-    border-width: 15px;
-    border-radius: 10px;
-    border-color: brown;
-    background-color: beige;
-}
-
-* {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: aqua;
-}
-
 .roboto-slab {
     text-decoration-line: underline;
     background-color: beige;
@@ -46,11 +20,6 @@ section label {
     background-color: beige;
 }
 
-button {
-    background-color: beige;
-    width: 100px;
-}
-
 .dancing-script {
     background-color: beige;
     font-family: "Dancing Script", cursive;
@@ -59,46 +28,8 @@ button {
     font-style: normal;
 }
 
-nav input {
-    background-color: white;
-    width: 1000px;
-    height: 30px;
-}
-
-header {
-    background-color: black;
-    border: solid green 5px;
-}
-
-h1 {
-    background-color: greenyellow;
-    display: flex;
-    justify-content: center;
-}
-
-nav {
-    background-color: gray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form {
-    background-color: beige;
-}
-
-nav label {
-    background-color: #FFCC99;
-}
-
 main label, main input {
     background-color: beige;
-}
-
-hr {
-    border: none;
-    background-color: maroon;
-    height: 5px;
 }
 
 footer {

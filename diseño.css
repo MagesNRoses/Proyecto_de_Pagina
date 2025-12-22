@@ -7,19 +7,6 @@
     font-style: normal;
 }
 
-p {
-    background-color: beige;
-}
-
-section input {
-    background-color: beige;
-    width: 50px;
-}
-
-section label {
-    background-color: beige;
-}
-
 .dancing-script {
     background-color: beige;
     font-family: "Dancing Script", cursive;
@@ -28,26 +15,11 @@ section label {
     font-style: normal;
 }
 
-main label, main input {
-    background-color: beige;
-}
-
-footer {
-    padding: 20px;
-}
-
-footer, footer p, footer a, h5 {
-    background-color: darkblue;
-}
-
-footer p, footer h5 {
-    color: white;
-}
-
-footer a {
-    color: aliceblue;
-}
-
-aside, aside p, aside a {
-    background-color: #3366FF;
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: #0000001a;
+    border: solid rgba(0,0,0,.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em #0000001a,inset 0 .125em .5em #00000026;
 }

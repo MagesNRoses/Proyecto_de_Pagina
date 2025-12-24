@@ -32,3 +32,33 @@ img {
     object-fit: contain;
     border-radius: 20px;
 }
+
+aside {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#AsideDiv {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-div {
+    color: black;
+}
+
+.Descripción-y-precio, .Compra {
+    padding: 20px;
+    margin: 10px;
+}
+
+.Compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
